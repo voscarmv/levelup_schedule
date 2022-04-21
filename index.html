@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Microverse Level-Up Schedule</title>
+    <script>
+      const localStart = new Date('August 19, 1975 14:00:00 UTC').toLocaleTimeString('en-US');
+      const localEnd = new Date('August 19, 1975 17:00:00 UTC').toLocaleTimeString('en-US');
+      const loadVals = (start, end) => {
+        alert(start + end);
+      };
+    </script>
+  </head>
+  <body onLoad="loadVals(localStart, localEnd);">
+  </body>
+</html>
